@@ -8,7 +8,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    origin : "https://e-commerce-deploy-rf99.onrender.com/",
     credentials : true
 }))
 app.use(express.json())
